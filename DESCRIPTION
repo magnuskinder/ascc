@@ -1,0 +1,19 @@
+Package: ascc
+Title: Adaptive Single-Cell Classification Package
+Description: A tool to classify single-cell protein data, with a reference population list, into known cell-types. 
+  The method guarantees marginal coverage with respect to a user-defined coverage level, and provides the possibility to perform 
+  feature selection using the R packages FOCI <https://cran.r-project.org/web/packages/FOCI/index.html>.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Magnus",
+           family = "Kinder",
+           role = c("aut", "cre"),
+           email = "magnus.kinder@gmail.com")
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+        license
+Encoding: UTF-8
+LazyData: true
+Imports: FOCI (>= 0.1.2), BiocGenerics (>= 0.34.0), stats (>= 4.0.2),
+        utils (>= 4.0.2), e1071 (>= 1.7-4)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
